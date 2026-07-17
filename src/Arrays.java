@@ -5,8 +5,6 @@ public class Arrays {
         int[] marks =  new int[5];
         int[] marks_input =  new int[5];
 
-
-
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter 5 integers : ");
 
@@ -19,10 +17,16 @@ public class Arrays {
         }
         sc.nextLine();
 
+        String[] names = new String[5];
+        System.out.print("Enter 5 names for string array: ");
 
-
-
-
+        for (int s = 0; s < names.length ; s++){
+            names[s] = sc.nextLine();
+        }
+        System.out.println("\n Names are : ");
+        for (int t = 0 ; t < names.length; t++){
+            System.out.println("String input names: " + names[t]);
+        }
         marks[0] = 85;
         marks[1] = 185;
         marks[2] = 285;
