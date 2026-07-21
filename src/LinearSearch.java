@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class LinearSearch {
     public static void main(String[] args){
-        System.out.println("LinearSearchImplemetation ,Enter 5 no for array:");
+        System.out.println("LinearSearchImplementation ,Enter 5 no for array:");
         Scanner sc = new Scanner(System.in);
         int[] find = new int[5];
         for( int i = 0 ; i < find.length ; i++){
